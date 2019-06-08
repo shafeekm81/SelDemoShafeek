@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="0" ignored="0" total="16" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74317" started-at="2019-04-26T01:45:37Z" finished-at="2019-04-26T01:46:51Z">
+    <groups>
+    </groups>
+    <test name="Edge Test" duration-ms="3518" started-at="2019-04-26T01:45:37Z" finished-at="2019-04-26T01:45:40Z">
+      <class name="demo.CrossBrowserTesting">
+        <test-method status="FAIL" signature="openBrowser(java.lang.String)[pri:0, instance:demo.CrossBrowserTesting@68c4039c]" name="openBrowser" is-config="true" duration-ms="3469" started-at="2019-04-26T01:45:37Z" finished-at="2019-04-26T01:45:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[A window size operation failed because the window is not currently available (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'ABDUS', ip: '192.168.13.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: A4AA0A96-9BB7-4D01-8A03-3EE71621F7B7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: A window size operation failed because the window is not currently available (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'ABDUS', ip: '192.168.13.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: A4AA0A96-9BB7-4D01-8A03-3EE71621F7B7
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at demo.CrossBrowserTesting.openBrowser(CrossBrowserTesting.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="verifySigninBtnVisibility()[pri:0, instance:demo.CrossBrowserTesting@68c4039c]" name="verifySigninBtnVisibility" duration-ms="0" started-at="2019-04-26T01:45:40Z" finished-at="2019-04-26T01:45:40Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[A window size operation failed because the window is not currently available (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'ABDUS', ip: '192.168.13.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: A4AA0A96-9BB7-4D01-8A03-3EE71621F7B7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: A window size operation failed because the window is not currently available (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'ABDUS', ip: '192.168.13.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: A4AA0A96-9BB7-4D01-8A03-3EE71621F7B7
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at demo.CrossBrowserTesting.openBrowser(CrossBrowserTesting.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySigninBtnVisibility -->
+        <test-method status="SKIP" signature="verifyText()[pri:1, instance:demo.CrossBrowserTesting@68c4039c]" name="verifyText" duration-ms="0" started-at="2019-04-26T01:45:40Z" finished-at="2019-04-26T01:45:40Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[A window size operation failed because the window is not currently available (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'ABDUS', ip: '192.168.13.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: A4AA0A96-9BB7-4D01-8A03-3EE71621F7B7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: A window size operation failed because the window is not currently available (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'ABDUS', ip: '192.168.13.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: A4AA0A96-9BB7-4D01-8A03-3EE71621F7B7
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at demo.CrossBrowserTesting.openBrowser(CrossBrowserTesting.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method status="SKIP" signature="verifySearchBtnStsBeforeEnteringText()[pri:2, instance:demo.CrossBrowserTesting@68c4039c]" name="verifySearchBtnStsBeforeEnteringText" duration-ms="0" started-at="2019-04-26T01:45:40Z" finished-at="2019-04-26T01:45:40Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[A window size operation failed because the window is not currently available (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'ABDUS', ip: '192.168.13.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: A4AA0A96-9BB7-4D01-8A03-3EE71621F7B7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: A window size operation failed because the window is not currently available (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'ABDUS', ip: '192.168.13.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: A4AA0A96-9BB7-4D01-8A03-3EE71621F7B7
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at demo.CrossBrowserTesting.openBrowser(CrossBrowserTesting.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBtnStsBeforeEnteringText -->
+        <test-method status="SKIP" signature="verifySearchBtnStsAfterEnteringText()[pri:3, instance:demo.CrossBrowserTesting@68c4039c]" name="verifySearchBtnStsAfterEnteringText" duration-ms="0" started-at="2019-04-26T01:45:40Z" finished-at="2019-04-26T01:45:40Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[A window size operation failed because the window is not currently available (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'ABDUS', ip: '192.168.13.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: A4AA0A96-9BB7-4D01-8A03-3EE71621F7B7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: A window size operation failed because the window is not currently available (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'ABDUS', ip: '192.168.13.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: A4AA0A96-9BB7-4D01-8A03-3EE71621F7B7
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at demo.CrossBrowserTesting.openBrowser(CrossBrowserTesting.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBtnStsAfterEnteringText -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:demo.CrossBrowserTesting@68c4039c]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-04-26T01:45:40Z" finished-at="2019-04-26T01:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- demo.CrossBrowserTesting -->
+    </test> <!-- Edge Test -->
+    <test name="Chrome Test" duration-ms="18523" started-at="2019-04-26T01:45:37Z" finished-at="2019-04-26T01:45:55Z">
+      <class name="demo.CrossBrowserTesting">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:demo.CrossBrowserTesting@548a9f61]" name="openBrowser" is-config="true" duration-ms="16596" started-at="2019-04-26T01:45:37Z" finished-at="2019-04-26T01:45:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifySigninBtnVisibility()[pri:0, instance:demo.CrossBrowserTesting@548a9f61]" name="verifySigninBtnVisibility" duration-ms="42" started-at="2019-04-26T01:45:54Z" finished-at="2019-04-26T01:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySigninBtnVisibility -->
+        <test-method status="PASS" signature="verifyText()[pri:1, instance:demo.CrossBrowserTesting@548a9f61]" name="verifyText" duration-ms="63" started-at="2019-04-26T01:45:54Z" finished-at="2019-04-26T01:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method status="PASS" signature="verifySearchBtnStsBeforeEnteringText()[pri:2, instance:demo.CrossBrowserTesting@548a9f61]" name="verifySearchBtnStsBeforeEnteringText" duration-ms="38" started-at="2019-04-26T01:45:54Z" finished-at="2019-04-26T01:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBtnStsBeforeEnteringText -->
+        <test-method status="PASS" signature="verifySearchBtnStsAfterEnteringText()[pri:3, instance:demo.CrossBrowserTesting@548a9f61]" name="verifySearchBtnStsAfterEnteringText" duration-ms="317" started-at="2019-04-26T01:45:54Z" finished-at="2019-04-26T01:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBtnStsAfterEnteringText -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:demo.CrossBrowserTesting@548a9f61]" name="closeBrowser" is-config="true" duration-ms="1461" started-at="2019-04-26T01:45:54Z" finished-at="2019-04-26T01:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- demo.CrossBrowserTesting -->
+    </test> <!-- Chrome Test -->
+    <test name="FireFox Test" duration-ms="33187" started-at="2019-04-26T01:45:37Z" finished-at="2019-04-26T01:46:10Z">
+      <class name="demo.CrossBrowserTesting">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:demo.CrossBrowserTesting@66a3ffec]" name="openBrowser" is-config="true" duration-ms="25693" started-at="2019-04-26T01:45:37Z" finished-at="2019-04-26T01:46:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifySigninBtnVisibility()[pri:0, instance:demo.CrossBrowserTesting@66a3ffec]" name="verifySigninBtnVisibility" duration-ms="1708" started-at="2019-04-26T01:46:03Z" finished-at="2019-04-26T01:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySigninBtnVisibility -->
+        <test-method status="PASS" signature="verifyText()[pri:1, instance:demo.CrossBrowserTesting@66a3ffec]" name="verifyText" duration-ms="32" started-at="2019-04-26T01:46:04Z" finished-at="2019-04-26T01:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method status="PASS" signature="verifySearchBtnStsBeforeEnteringText()[pri:2, instance:demo.CrossBrowserTesting@66a3ffec]" name="verifySearchBtnStsBeforeEnteringText" duration-ms="52" started-at="2019-04-26T01:46:04Z" finished-at="2019-04-26T01:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBtnStsBeforeEnteringText -->
+        <test-method status="PASS" signature="verifySearchBtnStsAfterEnteringText()[pri:3, instance:demo.CrossBrowserTesting@66a3ffec]" name="verifySearchBtnStsAfterEnteringText" duration-ms="482" started-at="2019-04-26T01:46:04Z" finished-at="2019-04-26T01:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBtnStsAfterEnteringText -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:demo.CrossBrowserTesting@66a3ffec]" name="closeBrowser" is-config="true" duration-ms="5212" started-at="2019-04-26T01:46:05Z" finished-at="2019-04-26T01:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- demo.CrossBrowserTesting -->
+    </test> <!-- FireFox Test -->
+    <test name="IE Test" duration-ms="74316" started-at="2019-04-26T01:45:37Z" finished-at="2019-04-26T01:46:51Z">
+      <class name="demo.CrossBrowserTesting">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:demo.CrossBrowserTesting@5b275dab]" name="openBrowser" is-config="true" duration-ms="6994" started-at="2019-04-26T01:45:37Z" finished-at="2019-04-26T01:45:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifySigninBtnVisibility()[pri:0, instance:demo.CrossBrowserTesting@5b275dab]" name="verifySigninBtnVisibility" duration-ms="609" started-at="2019-04-26T01:45:44Z" finished-at="2019-04-26T01:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySigninBtnVisibility -->
+        <test-method status="PASS" signature="verifyText()[pri:1, instance:demo.CrossBrowserTesting@5b275dab]" name="verifyText" duration-ms="353" started-at="2019-04-26T01:45:45Z" finished-at="2019-04-26T01:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method status="PASS" signature="verifySearchBtnStsBeforeEnteringText()[pri:2, instance:demo.CrossBrowserTesting@5b275dab]" name="verifySearchBtnStsBeforeEnteringText" duration-ms="307" started-at="2019-04-26T01:45:45Z" finished-at="2019-04-26T01:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBtnStsBeforeEnteringText -->
+        <test-method status="PASS" signature="verifySearchBtnStsAfterEnteringText()[pri:3, instance:demo.CrossBrowserTesting@5b275dab]" name="verifySearchBtnStsAfterEnteringText" duration-ms="66025" started-at="2019-04-26T01:45:45Z" finished-at="2019-04-26T01:46:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBtnStsAfterEnteringText -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:demo.CrossBrowserTesting@5b275dab]" name="closeBrowser" is-config="true" duration-ms="14" started-at="2019-04-26T01:46:51Z" finished-at="2019-04-26T01:46:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- demo.CrossBrowserTesting -->
+    </test> <!-- IE Test -->
+  </suite> <!-- Suite -->
+</testng-results>
