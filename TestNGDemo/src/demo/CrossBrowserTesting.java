@@ -88,6 +88,8 @@ public class CrossBrowserTesting {
 				"#globalHeader > app-root > div:nth-child(3) > div > div.ng-tns-c2-0.ng-trigger.ng-trigger-routeAnimations > app-login > div > div > div.animate-ui-view > div > h1"))
 				.getText();
 		Assert.assertEquals(actualValue, expectedValue);
+		
+		//Today is Wednesday
 	}
 
 	@Test(priority = 2) // (priority = 2, enabled = false) to skip this step
